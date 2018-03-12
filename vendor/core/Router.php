@@ -32,5 +32,13 @@ class Router {
         }
         return false;
     }
-
+    
+    public static function dispatch($url){
+        if(self::matchRoute($url)){
+            
+        } else {
+            http_response_code(404);
+            include '404.html';
+        }
+    }
 }
