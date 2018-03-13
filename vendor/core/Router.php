@@ -1,5 +1,7 @@
 <?php 
 
+namespace vendor\core;
+
 class Router {
     // создаем свойство
     protected static $routes = [];
