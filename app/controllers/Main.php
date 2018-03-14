@@ -6,8 +6,8 @@ namespace app\controllers;
  *
  * @author Анатолий
  */
-class Main {
+class Main extends App {
     public function indexAction(){
-        echo 'Main::index';
+        
     }
 }
